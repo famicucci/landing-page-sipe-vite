@@ -4,7 +4,7 @@ module.exports = {
 		colors: {
 			blue: '#3f51b5',
 			white: '#ffffff',
-			orange: { 500: '#ef4444' },
+			orange: { 500: '#f97316', 600: '#ea580c' },
 			slate: {
 				400: '#94a3b8',
 			},
