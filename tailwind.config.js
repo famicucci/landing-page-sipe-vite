@@ -1,5 +1,9 @@
 module.exports = {
-	content: ['./index.html', './src/**/*.{react,js,ts,jsx,tsx}'],
+	content: [
+		'./index.html',
+		'./src/**/*.{react,js,ts,jsx,tsx}',
+		'./components/**/*.{react,js,ts,jsx,tsx}',
+	],
 	theme: {
 		colors: {
 			blue: '#3f51b5',
@@ -8,6 +12,7 @@ module.exports = {
 			slate: {
 				400: '#94a3b8',
 			},
+			grey: '#EFEFEF',
 		},
 		spacing: {
 			1: '8px',
