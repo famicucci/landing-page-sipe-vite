@@ -6,13 +6,9 @@ module.exports = {
 	],
 	theme: {
 		colors: {
-			blue: '#3f51b5',
+			blue: { 500: '#3b82f6', 700: '#1d4ed8' },
+			gray: { 100: '#EFEFEF', 500: '#6b7280' },
 			white: '#ffffff',
-			orange: { 500: '#f97316', 600: '#ea580c' },
-			slate: {
-				400: '#94a3b8',
-			},
-			grey: '#EFEFEF',
 		},
 		spacing: {
 			1: '8px',
