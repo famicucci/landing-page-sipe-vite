@@ -4,12 +4,14 @@ import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 const CTASection = () => {
 	return (
-		<div className="flex flex-col justify-center h-fit p-2 pb-8">
-			<div className="mb-5 mr-[-12px]">
+		<section className="flex flex-col justify-center h-fit p-2 pb-10">
+			<div className="mb-5 mr-[-8px]">
 				<div className="float-left w-5/12 h-[200px]">
 					<p className="text-2xl font-semibold text-gray-500 pr-3">
-						Como empezar a administrar tu negocio
-						<span className="ml-1 text-blue-500">sin inversión inicial</span>
+						{'Como\xa0empezar a\xa0administrar tu negocio'}
+					</p>
+					<p className="text-2xl font-semibold text-blue-500">
+						sin inversión inicial
 					</p>
 				</div>
 				<picture className="float-right overflow-hidden rounded-l-2xl shadow-lg w-7/12 h-[265px] mt-8">
@@ -25,7 +27,7 @@ const CTASection = () => {
 					<AiOutlineWhatsApp />
 				</span>
 			</button>
-		</div>
+		</section>
 	);
 };
 
