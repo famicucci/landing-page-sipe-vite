@@ -1,9 +1,9 @@
 import React from 'react';
 import { BsFillRecordCircleFill } from 'react-icons/Bs';
 
-const Header = (props) => {
+const Header = () => {
 	return (
-		<div className="flex flex-col items-center p-9 bg-gray-100">
+		<div className="flex flex-col items-center p-9">
 			<div className="flex items-center mb-2">
 				<span className="text-blue-500 mr-1">
 					<BsFillRecordCircleFill className="text-xl" />

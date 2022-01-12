@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 const CTASection = () => {
 	return (
-		<div className="flex flex-col justify-center h-fit bg-gray-100 p-2 pb-8">
+		<div className="flex flex-col justify-center h-fit p-2 pb-8">
 			<div className="mb-5 mr-[-12px]">
 				<div className="float-left w-5/12 h-[200px]">
 					<p className="text-2xl font-semibold text-gray-500 pr-3">
