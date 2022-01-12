@@ -3,8 +3,8 @@ import { BsFillRecordCircleFill } from 'react-icons/Bs';
 
 const Header = (props) => {
 	return (
-		<div className="flex flex-col items-center p-4 bg-gray-100">
-			<div className="flex items-center">
+		<div className="flex flex-col items-center p-9 bg-gray-100">
+			<div className="flex items-center mb-2">
 				<span className="text-blue-500 mr-1">
 					<BsFillRecordCircleFill className="text-xl" />
 				</span>
