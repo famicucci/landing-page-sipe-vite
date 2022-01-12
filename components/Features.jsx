@@ -31,8 +31,8 @@ const FeatureToRight = (props) => {
 
 const Features = () => {
 	return (
-		<section className="w-full bg-blue-500 rounded-t-2xl">
-			<h3 className="text-3xl text-white font-semibold text-center pt-10">
+		<section className="w-full bg-blue-500 rounded-t-2xl py-16">
+			<h3 className="text-3xl text-white font-semibold text-center">
 				¿Porqué usar Sip-e?
 			</h3>
 			<FeatureToLeft
