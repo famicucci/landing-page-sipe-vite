@@ -4,7 +4,7 @@ import { ImArrowDown2 } from 'react-icons/im';
 
 const CTASeePrices = () => {
 	return (
-		<section className="py-10 p-2">
+		<section className="py-10 px-2">
 			<h3 className="text-3xl  font-semibold text-center mb-4">
 				¿Qué estás esperando?
 			</h3>
