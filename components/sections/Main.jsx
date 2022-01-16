@@ -2,6 +2,7 @@ import React from 'react';
 import CTASection from './CTASection';
 import CTASeePrices from './CTASeePrices';
 import Features from './Features';
+import Prices from './Prices';
 import Steps from './Steps';
 
 const Main = () => {
@@ -11,6 +12,7 @@ const Main = () => {
 			<Features />
 			<CTASeePrices />
 			<Steps />
+			<Prices />
 		</>
 	);
 };

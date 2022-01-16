@@ -1,5 +1,5 @@
 import React from 'react';
-import captura from '../src/captura1.5-excel.jpg';
+import captura from '../../src/captura1.5-excel.jpg';
 import { ImArrowDown2 } from 'react-icons/im';
 
 const CTASeePrices = () => {

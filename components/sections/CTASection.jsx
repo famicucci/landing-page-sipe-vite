@@ -1,6 +1,6 @@
 import React from 'react';
-import captura from '../src/captura-sipe-recorte.jpg';
-import { AiOutlineWhatsApp } from 'react-icons/ai';
+import captura from '../../src/captura-sipe-recorte.jpg';
+import ContactButton from '../general/ContactButton';
 
 const CTASection = () => {
 	return (
@@ -21,12 +21,7 @@ const CTASection = () => {
 			<h4 className="text-xl font-semibold text-gray-500 text-center mb-2">
 				Descúbrenos
 			</h4>
-			<button className="flex items-center justify-center bg-red-500 font-bold mx-auto py-2 px-4 text-white w-fit hover:bg-red-700 transition duration-150 ease-in shadow-lg rounded-3xl">
-				<span className="mr-1">Contactar</span>
-				<span>
-					<AiOutlineWhatsApp />
-				</span>
-			</button>
+			<ContactButton />
 		</section>
 	);
 };
