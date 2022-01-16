@@ -1,6 +1,6 @@
 import React from 'react';
-import captura from '../../src/captura-sipe-recorte.jpg';
-import ContactButton from '../general/ContactButton';
+import captura from '../../../src/captura-sipe-recorte.jpg';
+import ContactButton from '../../general/ContactButton';
 
 const CTASection = () => {
 	return (

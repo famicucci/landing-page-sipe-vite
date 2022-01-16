@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillCheckSquare } from 'react-icons/ai';
-import ContactButton from '../general/ContactButton';
+import ContactButton from '../../general/ContactButton';
 
 const ListItem = (props) => {
 	const { text } = props;
