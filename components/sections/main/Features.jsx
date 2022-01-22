@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaKey } from 'react-icons/fa';
+import { HiTrendingUp } from 'react-icons/hi';
+import { FaLayerGroup } from 'react-icons/fa';
 
 const FeatureToLeft = (props) => {
 	const { icon, title, text } = props;
@@ -41,13 +43,13 @@ const Features = () => {
 				text="Recibirás ayuda profesional para ordenar tu gestión y ponerlo en marcha"
 			/>
 			<FeatureToRight
-				icon={<FaKey />}
+				icon={<HiTrendingUp />}
 				title="Productividad"
 				text="Ahorrarás tiempo 
                 y evitarás errores"
 			/>
 			<FeatureToLeft
-				icon={<FaKey />}
+				icon={<FaLayerGroup />}
 				title={'Multi\xa0Stock'}
 				text="Recibirás ayuda profesional para ordenar tu gestión y ponerlo en marcha"
 			/>
