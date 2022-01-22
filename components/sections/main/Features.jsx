@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaKey } from 'react-icons/fa';
+// import { FaKey } from 'react-icons/fa';
 
 const FeatureToLeft = (props) => {
 	const { icon, title, text } = props;
@@ -36,18 +36,18 @@ const Features = () => {
 				¿Porqué usar Sip-e?
 			</h3>
 			<FeatureToLeft
-				icon={<FaKey />}
+				// icon={<FaKey />}
 				title="Asistencia"
 				text="Recibirás ayuda profesional para ordenar tu gestión y ponerlo en marcha"
 			/>
 			<FeatureToRight
-				icon={<FaKey />}
+				// icon={<FaKey />}
 				title="Productividad"
 				text="Ahorrarás tiempo 
                 y evitarás errores"
 			/>
 			<FeatureToLeft
-				icon={<FaKey />}
+				// icon={<FaKey />}
 				title={'Multi\xa0Stock'}
 				text="Recibirás ayuda profesional para ordenar tu gestión y ponerlo en marcha"
 			/>
