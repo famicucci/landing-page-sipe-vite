@@ -1,5 +1,5 @@
 import React from 'react';
-// import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
 	const year = new Date().getFullYear();
@@ -14,7 +14,7 @@ const Footer = () => {
 					href="https://www.linkedin.com/in/francisco-agustin-micucci/"
 					target="_blank"
 				>
-					{/* <AiFillLinkedin className="text-6xl text-white mx-auto" /> */}
+					<AiFillLinkedin className="text-6xl text-white mx-auto" />
 				</a>
 			</div>
 			<div className="text-sm text-center">
