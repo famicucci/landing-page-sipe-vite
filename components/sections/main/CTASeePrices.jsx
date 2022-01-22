@@ -1,6 +1,6 @@
 import React from 'react';
 import captura from '../../../src/captura1.5-excel.jpg';
-// import { ImArrowDown2 } from 'react-icons/im';
+import { ImArrowDown2 } from 'react-icons/im';
 
 const CTASeePrices = () => {
 	return (
@@ -18,7 +18,9 @@ const CTASeePrices = () => {
 				Solo como herramienta de apoyo
 			</p>
 			<button className="flex items-center justify-center bg-red-500 font-bold mx-auto py-2 w-2/3 text-white hover:bg-red-700 transition duration-150 ease-in shadow-lg rounded-3xl">
-				<span>{/* <ImArrowDown2 /> */}</span>
+				<span>
+					<ImArrowDown2 />
+				</span>
 				<span className="ml-2">¡Quiero ver precios!</span>
 			</button>
 		</section>
