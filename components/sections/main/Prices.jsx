@@ -1,5 +1,5 @@
 import React from 'react';
-// import { AiFillCheckSquare } from 'react-icons/ai';
+import { AiFillCheckSquare } from 'react-icons/ai';
 import ContactButton from '../../general/ContactButton';
 
 const ListItem = (props) => {
@@ -7,7 +7,7 @@ const ListItem = (props) => {
 
 	return (
 		<li className="flex items-center mb-6">
-			{/* <AiFillCheckSquare className="text-2xl text-lime-500" /> */}
+			<AiFillCheckSquare className="text-2xl text-lime-500" />
 			<p className="ml-2 text-xl text-gray-500">{text}</p>
 		</li>
 	);
