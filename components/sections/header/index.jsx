@@ -1,12 +1,12 @@
 import React from 'react';
-// import { BsFillRecordCircleFill } from 'react-icons/Bs';
+import { BsFillRecordCircleFill } from 'react-icons/bs';
 
 const Header = () => {
 	return (
 		<div className="flex flex-col items-center p-9">
 			<div className="flex items-center mb-2">
 				<span className="text-blue-500 mr-1">
-					{/* <BsFillRecordCircleFill className="text-xl" /> */}
+					<BsFillRecordCircleFill className="text-xl" />
 				</span>
 				<h3 className="text-3xl text-blue-500 font-semibold">Sip-e</h3>
 			</div>
